@@ -1,0 +1,80 @@
+.header {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 26px;
+}
+
+.logo {
+  margin-top: 2px;
+  margin-left: 26px;
+}
+
+.searchBar {
+  display: flex;
+  width: 600px;
+  height: 70%;
+  border-radius: 50px;
+  margin-left: 271px;
+  align-items: center;
+}
+
+.leftSearch {
+  height: 100%;
+  width: 95.7%;
+  display: flex;
+  border: 1px solid #ccc;
+  border-right: 0;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 0 17px;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  color: #0000006f;
+}
+
+.rightSearch {
+  height: 100%;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  width: 4.3%;
+  height: 100%;
+  padding: 0 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSearch:hover {
+  background-color: #f0f0f0;
+}
+
+.rightSearch svg {
+  pointer-events: none;
+  display: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.mic {
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16.5px;
+}
+
+.mic:hover {
+  background-color: #d7d7d7;
+}
